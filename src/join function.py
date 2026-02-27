@@ -36,7 +36,7 @@ dept.show()
 print("INNER JOIN")
 emp.join(dept, "Dept", "inner").show()
 
-#left joins-->Only matching records.
+#left joins-->Only matching records.all rows from left
 print("LEFT JOIN")
 emp.join(dept, "Dept", "left").show()
 
